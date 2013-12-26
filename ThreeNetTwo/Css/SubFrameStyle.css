@@ -1,0 +1,49 @@
+﻿form
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+table
+{
+    vertical-align:middle;
+    border:1px solid #73a4f6;
+    border-collapse:collapse;
+    color: #15428B;
+}
+      
+table td
+{
+    border:1px solid #73a4f6;
+    padding:6px 6px 6px 6px;
+}
+
+.button
+{
+    width: 50px;
+    height: 21px;
+    border: 1px solid #93bee2;
+    color: #006699;
+    font-size: 9pt;
+    font-style: normal;
+    background-color: #e8f4ff;
+    cursor:pointer;
+}
+.text
+{
+	width: 150px;
+    height: 18px;
+    border: 1px solid #93bee2;
+    font-size: 9pt;
+    font-style: normal;
+	margin-bottom: 0px;
+}
+
+.borderset
+{
+	border: 1px solid #93bee2;
+}
+.hide
+{
+	display:none;
+}

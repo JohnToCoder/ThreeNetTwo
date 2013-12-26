@@ -1,0 +1,714 @@
+﻿body
+{
+	 background: #000000;
+     color: #ffffff;
+     font-family:微軟正黑體;
+     -moz-user-select:none;
+}
+
+.hide
+{
+	display:none;
+}
+
+.show
+{
+	display:block;
+}
+
+/*全局菜單樣式，修改前請告知 Roni 20101229*/
+.leftmbg
+{
+	background:url('../images/leftHead.png') 100% 0% no-repeat;
+	width:22px;
+	height:48px;
+}
+
+.rightmbg
+{
+	background:url('../images/rightHead.png') no-repeat;
+	width:22px;
+	height:48px;
+}
+.split
+{
+	background:transparent url('../images/split.png') no-repeat scroll top right;
+	width:1px;
+}
+
+.cmbgfix
+{
+	background:transparent url('../images/Centerbody.png') repeat-x;
+}
+
+.cmbgSelect
+{
+	background:transparent url('../images/menuSelect.png') repeat-x;
+	white-space:nowrap;
+	color:White;
+	font-family:微軟正黑體;
+	font-size:26pt;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.cmbg
+{
+	background:transparent url('../images/Centerbody.png') repeat-x;
+	white-space:nowrap;
+	color:White;
+	font-family:微軟正黑體;
+	font-size:26pt;
+	font-weight:bold;
+}
+
+.cmbg:hover
+{
+	background:transparent url('../images/menuHover.png') repeat-x;
+	cursor:pointer;
+}
+
+.cmbgOver
+{
+	background:transparent url('../images/menuHover.png') repeat-x;
+	white-space:nowrap;
+	color:White;
+	font-family:微軟正黑體;
+	font-size:26pt;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+/*Edit by Tanyi*/
+
+.list
+{
+    border:solid 2px #4f81bd;
+    height:56px;
+    font-size:16pt;
+    text-align:center;
+    vertical-align:middle;
+    color:White;
+}
+
+.listItem
+{
+    border:solid 3px #f79646;
+    height:56px;
+    text-align:center;
+    cursor:pointer;
+    font-size:16pt;
+    vertical-align:middle;
+    color:White;
+}
+
+.listUnSelected
+{
+    border:solid 3px #4f81bd;
+    height:56px;
+    font-size:16pt;
+    text-align:center;
+    vertical-align:middle;
+    color:White;
+}
+
+.listNewsUnSelected
+{
+    border:solid 3px #000000;
+    height:56px;
+    font-size:16pt;
+    text-align:center;
+    vertical-align:middle;
+    color:White;
+}
+
+/*頻道列表Hover樣式修改*/
+.listUnSelected:hover
+{
+    border:solid 3px #f79646;
+    height:56px;
+    text-align:center;
+    cursor:pointer;
+}
+
+.listSelected
+{
+    border:solid 3px white;
+    background-color:#f79646;
+    height:56px;
+    font-size:16pt;
+    text-align:center;
+    vertical-align:middle;
+    color:White;
+    cursor:pointer;
+}
+
+.tableBox
+{
+	border:4px white;
+	/*background-color:#4f81bd;*/
+	
+    vertical-align:top;
+    height:205px;
+    padding: 8px 20px 8px 20px;
+    border-style:ridge solid  groove ridge;
+	}
+
+
+.tableBox1
+{
+	border:4px white;
+	background-color:#4f81bd;
+    vertical-align:top;
+    padding: 5px 5px 5px 5px;
+    border-style:ridge solid  groove ridge;
+	}
+
+.programListUnSelect
+{
+    padding:3px;
+	height:35px;
+	text-align:left;
+    font-size:18pt;
+	vertical-align:middle;
+	cursor:pointer;
+	}
+	
+.programListSelect
+{
+	border:solid 3px white;
+	background-color:#f79646;
+	height:35px;
+	font-size:18pt;
+	text-align:left;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.MusicListUnSelect
+{
+    border:solid 3px Transparent;
+	height:40px;
+	text-align:left;
+    font-size:18pt;
+	vertical-align:middle;
+	cursor:pointer;
+}
+	
+.MusicListSelect
+{
+	border:solid 3px white;
+	background-color:#f79646;
+	height:40px;
+	font-size:18pt;
+	text-align:left;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+/*播放列表清單下拉菜單樣式*/
+.miniMenu
+{
+   background-color:#f79646;
+   border:solid 5px white;
+   color:Black;
+   text-align:left;
+   height:40px;
+	}
+
+.miniMenuItem:hover
+{
+	border:solid 1px white;
+	background-color:#a7c5fd;
+	cursor:pointer;
+}
+
+.searchItemBoxUnSelect
+{
+	border:solid 3px #4f81bd;
+	height:85px;
+	text-align:center;
+	vertical-align:middle;
+	padding:10px 20px 10px 20px;
+	cursor:pointer;
+	}
+	
+.searchItemBoxSelect
+{
+	border:solid 3px white;
+	background-color:#f79646;
+	height:85px;
+	text-align:center;
+	vertical-align:middle;
+	padding:10px 20px 10px 20px;
+	cursor:pointer;
+}
+	
+.myProgramItemBox:hover
+{
+	border:solid 5px white;
+	background-color:#f79646;
+	height:25px;
+	vertical-align:middle;
+}
+
+.datalistBg
+{
+    text-align:left;
+	font-size:30px;
+}
+	
+.datalistChild
+{
+	font-size:24px;
+}
+
+/*頻道節目播放按鈕樣式 Roni*/
+.button {
+    background: transparent url('../images/ChannelBg.png') 0 0 no-repeat ; 
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	color:White;
+	font-family:微軟正黑體;
+	font-size:24px;
+	font-weight:bold;
+	padding-top:10px;
+}
+.buttonover{
+    background: transparent url('../images/ChannelBg_f.png') 0 0 no-repeat; 
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	color:White;
+	font-family:微軟正黑體;
+	font-size:24px;
+	font-weight:bold;
+	padding-top:10px;
+	cursor:pointer;
+}
+
+.divBox
+{
+	border:4px white;
+	background-color:#4f81bd;
+    vertical-align:top;
+    height:450px;
+    padding: 10px 20px 10px 20px;
+    border-style:ridge solid  groove ridge;
+}
+
+#AdLayer
+{
+	background-color:Red;   
+    filter:alpha(opacity=60);    
+    -moz-opacity: 0.6;    
+    opacity: 0.6;    
+    position:absolute;    
+    width:260px;    
+    display:none;
+    z-index:5;    
+    font-size:20pt;
+    left:35%;    
+    top:40%;    
+}  
+
+
+/*彈出窗口樣式*/
+.div_overlay{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:100;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+
+.div_content {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height:200px;
+	margin-left:-140px;
+	margin-top:-80px;
+    background:transparent url('../images/aletBox.png') no-repeat;
+    _position:absolute;
+    z-index:101;
+    overflow: hidden;
+}
+
+.div_from {
+    display: none;
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    height:366px;
+	margin-left:-120px;
+	margin-top:-80px;
+	padding:10px;
+    background:transparent url('../images/msgBox.png') no-repeat;
+    _position:absolute;
+    z-index:101;
+    overflow: hidden;
+}
+
+.div_messageshow
+{
+	text-align:center;
+	margin:0 auto;
+	color:#000;
+	font-weight:bold;
+	overflow:hidden;
+	margin-top:10px;
+	padding:10px;
+}
+
+.div_main
+{
+	margin:0 auto;
+	text-align:center;
+	cursor:pointer;
+	font-weight:bold;
+	 -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+
+.div_Control
+{
+	text-align:center;
+	cursor:pointer;
+}
+
+.div_none
+{
+	 background-color:Red;
+}
+
+.div_News
+{	
+	cursor:pointer;
+	border:solid 2px #4f81bd;
+    vertical-align:middle;
+	background-color:White;
+	margin:8px 30px;
+	min-width:600px;
+	height:135px;
+	padding:10px;
+	background: url('../images/CommonCenterPad.png')
+}
+
+.div_News_Title  
+{
+	text-align:left;
+	font-size:20pt;
+	font-weight:bold;
+}
+.div_News_Detail
+{
+	margin-top:5px;
+	text-align:left;
+	margin-left:30px;
+	font-size:18pt;
+	font-weight:bold;
+}
+
+.div_News_Select
+{
+	font-size:18pt;
+	text-align:right;
+	color:White;
+}
+
+.div_News_Content {
+    display: none;
+    position: fixed;
+    top: 27%;   
+    left:15%;
+	margin-left:-120px;
+	margin-top:-80px;
+	padding:10px;
+    background:transparent url('../images/msgNews.png') no-repeat;
+    _position:absolute;
+    z-index:101;
+    overflow: hidden;
+}
+
+.div_Content_News
+{
+	width: 98.5%;  
+	z-index: 2; 
+	background-color:#000000;
+	font-size:18pt;
+    position: absolute; 
+    top: 120px;
+    text-align:center;
+}
+
+.imgStyle
+{
+ width:500px;
+ Height:245px;
+}
+
+.imgStyleIpad
+{
+  width:380px;
+  Height:245px;
+}
+
+.labVolumLeft
+{
+	float:left; 
+	cursor:pointer;
+	vertical-align:bottom;
+	width:25px; 
+	height:35px; 
+	border:solid 1px #f79646; 
+	border-right:solid 0px #ffffff;
+}
+.labVolumMiddle
+{
+	float:left; 
+	cursor:pointer;
+	vertical-align:bottom;
+	width:25px; 
+	height:35px; 
+	border:solid 1px #f79646; 
+	border-right:solid 0px #ffffff;
+	border-left:solid 0px #ffffff;
+}
+.labVolumRight
+{
+	float:left; 
+	cursor:pointer;
+	vertical-align:bottom;
+	width:25px; 
+	height:35px; 
+	border:solid 1px #f79646; 
+	border-left:solid 0px #ffffff;
+}
+.labVolum
+{
+	border-color:Red;
+	background-color:Red;
+}
+.sysTime
+{
+	color:White;
+	width:245px;
+	white-space:nowrap; 
+	font-size:18pt; 
+	filter: Blur(Add=0, Direction=135, Strength=10);
+}
+
+.photoBox
+{
+	position:absolute;
+	top: 15%;
+    left: 20%; 
+	display: none; 
+	width: 750px; 
+	height: 540px; 
+	z-index: 20;
+	background-color: #F3F3F3;
+    padding: 5px; 
+}
+
+.photoBox_ipad
+{
+	position:absolute;
+	top: 15%;
+    left: 10%; 
+	display: none; 
+	width: 750px; 
+	height: 540px; 
+	z-index: 20;
+	background-color: #F3F3F3;
+    padding: 5px; 
+}
+
+.PhotoGray{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+
+#showarea
+{
+	position:absolute;
+    z-index:1;  
+}
+
+#turnover
+{
+    position:relative;
+    z-index:2; 
+}
+
+/*全局按鈕樣式*/
+.btnAll {
+    background: transparent url('../images/btnBg.png') 0 0 no-repeat ; 
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	line-height:45px;
+	text-align:center;
+	color:White;
+	font-family:微軟正黑體;
+	font-size:20pt;
+	font-weight:bold;
+    width:130px;
+    height:45px;
+    cursor:pointer;
+}
+
+.btnAllover{
+    background: transparent url('../images/btnBgOver.png') 0 0 no-repeat; 
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	line-height:45px;
+	text-align:center;
+	color:White;
+	font-family:微軟正黑體;
+	font-size:20pt;
+	font-weight:bold;
+	cursor:pointer;
+	width:130px;
+    height:45px;
+    cursor:pointer;
+}
+
+.btnGary {
+    background: transparent url('../images/btnBgGray.png') 0 0 no-repeat ; 
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	line-height:45px;
+	text-align:center;
+	color:White;
+	font-family:微軟正黑體;
+	font-size:20pt;
+	font-weight:bold;
+	width:130px;
+    height:45px;
+    cursor:pointer;
+}
+.btnGaryOver{
+    background: transparent url('../images/btnBgGrayOver.png') 0 0 no-repeat; 
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	line-height:45px;
+	text-align:center;
+	color:White;
+	font-family:微軟正黑體;
+	font-size:20pt;
+	font-weight:bold;
+	cursor:pointer;
+	width:130px;
+    height:45px;
+    cursor:pointer;
+}
+
+/*圖片選中樣式 Roni*/	
+.PhotoItemSelectBg
+{
+	background-color:#f79646;
+	border:solid 3px white;
+	height:34px;
+	overflow: hidden; 
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+	cursor:pointer;
+}
+
+/*以下三個css類為彈出加入收藏、播放和退出層的樣式 楊碧清 2011-01-25*/	
+.divMenu
+{
+	font-family:'微軟正黑體'; 
+    border-style:solid;
+    border-color:White;
+    border-left:2px;
+    border-top:2px;
+    border-right:2px;
+    border-bottom:2px;
+    background-color:#4f81bd;
+   	text-align:left;
+    vertical-align:middle;
+    font-size:26px;
+}
+.miniMenuItem
+{
+	font-family:'微軟正黑體';
+    background-color:#2676b8;
+    cursor:pointer;
+    height:35px;
+    font-size:26px;
+    border:solid 2px white;
+}
+.hoverclass
+{
+	background-color: #399cdf;
+	color:White;
+}
+
+/*圖片上傳控件樣式*/
+.fu_list {
+	width:100%;
+	background:#ebebeb;
+	font-size:16pt;
+	color:Black;
+    overflow:hidden;
+}
+.fu_list td {
+	padding:5px;
+	line-height:40px;
+	background-color:#fff;
+}
+.fu_list table {
+	width:100%;
+	border:1px solid #ebebeb;
+}
+.fu_list thead td {
+	background-color:#f4f4f4;
+}
+.fu_list b {
+	font-size:14px;
+}
+/*file容器样式*/
+a.files {
+	width:90px;
+	height:30px;
+	overflow:hidden;
+	display:block;
+	border:1px solid #BEBEBE;
+	background:url(../images/fu_btn.gif) left top no-repeat;
+	text-decoration:none;
+}
+a.files:hover {
+	background-color:#FFFFEE;
+	background-position:0 -30px;
+}
+/*file设为透明，并覆盖整个触发面*/
+a.files input {
+	margin-left:-350px;
+	font-size:30px;
+	cursor:pointer;
+	filter:alpha(opacity=0);
+	opacity:0;
+}
+/*取消点击时的虚线框*/
+a.files, a.files input {
+	outline:none;/*ff*/
+	hide-focus:expression(this.hideFocus=true);/*ie*/
+}

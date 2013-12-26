@@ -1,0 +1,242 @@
+﻿body
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.gvTableStyle
+{
+	background-color:#e5f6fb
+}
+
+.imgStyle
+{
+	cursor:pointer;
+}
+
+.imgBtnSel
+{
+	background-image: url('../images/table/Query.png');
+	background-color:Transparent;
+	border:0px;
+	width:56px;
+	height:20px;
+	font-size:12px;
+	cursor:pointer;
+	outline: none;star:expression(this.onFocus=this.blur());
+	line-height:22px; 
+	text-align:center;
+}
+.imgBtnReturn
+{
+	background-image: url('../images/table/Return.png');
+	background-color:Transparent;
+	border:0px;
+	width:56px;
+	height:20px;
+	font-size:12px;
+	cursor:pointer;
+	outline: none;star:expression(this.onFocus=this.blur());
+	line-height:22px; 
+	text-align:center;
+}
+
+.imgBtnDel
+{
+	background-image: url('../images/table/Delete.png');
+	background-color:Transparent;
+	line-height:22px; 
+	text-align:center;
+	border:0px;
+	width:56px;
+	height:20px;
+	font-size:12px;
+	cursor:pointer;
+	outline: none;star:expression(this.onFocus=this.blur());
+}
+
+.imgBtnIns
+{
+	background-image: url('../images/table/Add.png');
+	background-color:Transparent;
+	line-height:22px; 
+	text-align:center;
+	border:0px;
+	width:56px;
+	height:20px;
+	font-size:12px;
+	cursor:pointer;
+	outline: none;star:expression(this.onFocus=this.blur());
+}
+
+.imgBtnUpd
+{
+	background-image: url('../images/table/update.png');
+	background-color:Transparent;
+	line-height:22px; 
+	text-align:center;
+	border:0px;
+	width:56px;
+	height:20px;
+	font-size:12px;
+	cursor:pointer;
+	outline: none;star:expression(this.onFocus=this.blur());
+}
+
+.imgBtnSet
+{
+	background-image: url('../images/table/btnqx.gif');
+	background-color:Transparent;
+	line-height:22px; 
+	text-align:center;
+	border:0px;
+	width:80px;
+	height:20px;
+	font-size:12px;
+	cursor:pointer;
+	outline: none;star:expression(this.onFocus=this.blur());
+}
+
+.GvHeader
+{
+    border:1px solid #53bdcb;
+    font-size: 12px;
+    background-color:#d1ecfc ;
+    height: 20px;
+}
+.GvItem
+{
+    border:1px solid #53bdcb;
+    font-size: 12px;
+}
+
+.BText
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+.NText
+{
+    font-size: 12px;
+}
+
+.hide
+{
+    display:none;
+}
+
+.PageButton
+{
+	border:1px solid #53bdcb;
+    width: 44px;
+    color: #15428B;
+    font-size: 9pt;
+    background-color: #d1ecfc;color: #006699;
+    background-repeat: repeat-x;
+    cursor: pointer;
+}
+
+.PageButton a
+{
+    cursor: pointer;
+    font-size: 14px;
+    width: 30px;
+    text-align: center;
+    background-color: #c5d8ea;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    display: inline-block;
+}
+
+.PageButton span
+{
+    font-size: 14px;
+    width: 30px;
+    text-align: center;
+    background-color: #e3f4ff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.PageButton tr td
+{
+    border: 0;
+}
+
+.GridAlternatingRowStyle
+{
+    background-color: #fafdfd;
+}
+
+/*確定取消按鈕樣式*/
+.BtnYesStyle
+{
+	cursor:pointer; 
+	width:80px;
+	height:25px; 
+	text-align:center; 
+	background-image:url('../images/table/yes.png')
+}
+
+.BtnNoStyle
+{
+	cursor:pointer; 
+	width:80px;
+	height:25px; 
+	text-align:center; 
+	background-image:url('../images/table/no.png')
+}
+
+.divStyle{
+	padding: 15px;
+	background:#EBF4FD; 
+	width:99%;
+	height:99%;
+	display:none; 
+	overflow:hidden
+}
+
+.subdivStyle
+{
+	border: 1px solid #ccc;
+	width:98%;
+	height:93%;
+}
+
+.showdivStyle{
+	padding: 0px ;
+	border:2px solid #53bdcb; 
+	width:650px; 
+	height:400px; 
+	display:none;
+	position:fixed; 
+	top:10%;
+	left:10%;
+}
+
+.hideCss
+{
+   display:none;
+}
+
+.MoreCss
+{
+	color:Blue;
+	text-decoration:underline;
+	cursor:pointer;
+    border:1px solid #53bdcb;
+    font-size: 12px;
+}
+
+.MoreInfoCss
+{
+	color:Blue;
+	text-decoration:underline;
+	cursor:pointer;
+    border:1px solid #53bdcb;
+    font-size: 12px;
+}
